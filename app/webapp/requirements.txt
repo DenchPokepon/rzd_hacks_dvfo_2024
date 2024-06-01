@@ -1,5 +1,0 @@
-Flask
-pandas
-catboost
-clickhouse-driver
-Werkzeug==2.2.2
