@@ -7,8 +7,7 @@
 # create Admin user, you can read these values from env or anywhere else possible
 superset fab create-admin --username "admin" --firstname admin --lastname admin --email "admin@admin.com" --password "admin"
 
-# Upgrading Superset metastore
-superset db upgrade
+
 
 pip install --upgrade pip
 
@@ -29,6 +28,9 @@ pip install mysqlclient
 
 # # # Load Examples
 # # superset load_examples
+
+# Upgrading Superset metastore
+superset db upgrade
 
 # setup roles and permissions
 superset init 
