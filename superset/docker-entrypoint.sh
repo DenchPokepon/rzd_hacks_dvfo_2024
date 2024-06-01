@@ -12,7 +12,7 @@
 curl -sS https://raw.githubusercontent.com/apache/superset/4.0.1/requirements/base.txt | \
        tail -n +10 | \
        awk -v ORS=" " '/^[A-z]/{print}' | \
-       xargs pip install apache-superset==4.0.1
+       xargs pip install apache-superset
 
 pip install clickhouse-connect
 
