@@ -5,7 +5,7 @@
 # pip install apache-superset
 
 
-chmod 777 ./
+chmod --recursive 777 ./
 
 # pip install --upgrade pip
 
