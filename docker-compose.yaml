@@ -31,6 +31,12 @@ services:
       - "9000:9000"
     volumes:
       - clickhouse_data:/var/lib/clickhouse
+    users: 
+      enabled: true
+      user: 
+      - name: "admin"
+        config:
+          password: "d7dbeFZG8SovV86v22"
 
   superset:
     user: root
