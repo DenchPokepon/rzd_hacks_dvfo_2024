@@ -33,6 +33,7 @@ services:
       - clickhouse_data:/var/lib/clickhouse
 
   superset:
+    user: root
     image: apache/superset:4.0.1-py310
     container_name: superset
     environment:
